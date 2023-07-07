@@ -11,14 +11,10 @@ body {
     background: #FD6E0A;
     color: white;
     border-style: none;
-    border-radius: 0px;
-    /* width: 150px; */
+    border-radius: 5px;
     height: 64px;
-    flex-shrink: 0;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding: 18px 35px;
 }
 
@@ -27,6 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -50,4 +47,33 @@ nav li {
 nav a {
     text-decoration: none;
     color: #181818;
+}
+
+/* header related styles */
+.header {
+    background-color: #FFF8F3;
+}
+
+/* banner */
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-pic {
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
+}
+
+.banner-btn {
+    color: #FD6E0A;
+    /* background-color: FFF8F3; */
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
 }
